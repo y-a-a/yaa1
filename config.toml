@@ -102,6 +102,6 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 
-  staticman:
-    api: https://api.staticman.net/v2/entry/y-a-a/yaa1/master/comments
-    pulls: https://github.com/y-a-a/yaa1/pulls
+[staticman]
+    api = https://api.staticman.net/v2/entry/y-a-a/yaa1/master/comments
+    pulls = https://github.com/y-a-a/yaa1/pulls
