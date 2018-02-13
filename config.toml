@@ -103,5 +103,5 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [staticman]
-    api = https://api.staticman.net/v2/entry/y-a-a/yaa1/master/comments
-    pulls = https://github.com/y-a-a/yaa1/pulls
+    api = "https://api.staticman.net/v2/entry/y-a-a/yaa1/master/comments"
+    pulls = "https://github.com/y-a-a/yaa1/pulls"
