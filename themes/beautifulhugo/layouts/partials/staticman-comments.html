@@ -38,11 +38,6 @@
   <input type="hidden" name="options[slug]" value="{{ replace .URL "/" "" }}">
   <input type="hidden" name="options[parent]" value="">
 
-  {{ if .Site.Params.staticman.recaptcha }}
-  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.staticman.recaptcha.sitekey }}">
-  <input type="hidden" name="options[reCaptcha][secret]"  value="{{ .Site.Params.staticman.recaptcha.secret }}">
-  {{ end }}
-
   <fieldset>
   <div class="textfield">
     <textarea name="fields[comment]" type="text" placeholder="{{ i18n "useMarkdown" }}"></textarea>
@@ -66,12 +61,6 @@
       <input type="text" name="fields[website]"  placeholder="{{ i18n "yourWebsite" }}"/>
     </div>
   </fieldset>
-
-  {{ if .Site.Params.staticman.recaptcha }}
-  <fieldset>
-    <div class="g-recaptcha" data-sitekey="{{ .Site.Params.staticman.recaptcha.sitekey }}"></div>
-  </fieldset>
-  {{ end }}
 
   <fieldset>
     <button class="button">
