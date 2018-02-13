@@ -1,7 +1,7 @@
-baseurl = "https://routart.netlify.com/"
+baseurl = "https://yaa.netlify.com/"
 DefaultContentLanguage = "fr"
 
-title = "RoutArt"
+title = "Yaa"
 theme = "beautifulhugo"
 
 metaDataFormat = "yaml"
@@ -39,10 +39,10 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Didier"
+  name = "Yaa"
   website = ""
-  email = "didier (a) disroot.org"
-  github = "routart"
+  email = "yaa (a) disroot.org"
+  github = "y-a-a"
 
 #  facebook = "username"
 #  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
